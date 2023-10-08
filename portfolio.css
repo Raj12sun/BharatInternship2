@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+}
+
+#container {
+    padding: 10px 10%;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav h1{
+    color: #fff;
+}
+nav h1 span{
+    color:yellow;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-text {
+    margin-top: 250px;
+    color: white;
+}
+#myphoto{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 72%;
+    bottom: 350px;
+}
+.header-text p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.header-text h1 span {
+    color: rgb(215, 14, 14);
+}
+
+/* About of the person */
+#about {
+    margin-top: 50px;
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#side-1 img {
+    height: 400px;
+    width: 330px;
+    border-radius: 10px;
+}
+
+#side-2 h2 {
+    flex-basis: 70%;
+    color: wheat;
+    position: relative;
+    right: 53px;
+    font-size: 30px;
+}
+
+#side-2 p {
+    color: white;
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+}
+
+#tab-titles {
+    color: #fff;
+    display: flex;
+    margin-top: 30px;
+    gap: 250px;
+    cursor: pointer;
+}
+
+#content-box{
+    display: flex;
+    }
+.tab-contents{
+    color: #fff;
+    margin: 10px 0;
+}
+.tab-contents ul li{
+    list-style: none;
+    padding: 10px 18px;
+    font-size: 18px;
+}
+#project{
+    position: relative;
+    left: 50px;
+}
+.tab-contents ul li span{
+    color: #b54769;
+    font-size: 24px;
+}
+.tab-contents.active-tab{
+    position: relative;
+    right: 70px;
+}
+.tab-contents.active-tab2{
+    position: relative;
+    right: 20px;
+}
+.tab-contents.active-tab3{
+    position: relative;
+    left: 40px;
+}
+#work{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    gap: 30px;
+    color: #fff;
+}
+#work p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+#mywork h1{
+    font-size: 50px;
+    margin-left: 30px;
+    color: #fff;
+}
+#mywork img{
+    height: 300px;
+    width: 420px;
+}
